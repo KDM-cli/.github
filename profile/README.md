@@ -1,62 +1,14 @@
-# KDM CLI
+# KDM
 
-KDM CLI is a modern monitoring and management tool for Docker and Kubernetes environments. It provides real-time visibility into containers, pods, clusters, and system health directly from the terminal.
+KDM develops modern command-line tools for Docker and Kubernetes monitoring.
 
----
-
-## Features
-
-- Docker container monitoring
-- Kubernetes cluster monitoring
-- Real-time resource tracking
-- Container and pod health checks
-- Lightweight terminal-first workflow
-- Cross-platform CLI support
+Focused on performance, simplicity, and developer experience, KDM provides lightweight terminal-first solutions for monitoring containers, clusters, and infrastructure health in real time.
 
 ---
 
-## Installation
+## Mission
 
-```bash
-npm install -g kdm-cli
-```
-
-Run KDM:
-
-```bash
-kdm
-```
-
----
-
-## Commands
-
-```bash
-kdm --help
-kdm docker ps
-kdm docker stats
-kdm k8s pods
-kdm k8s health
-```
-
----
-
-## Tech Stack
-
-- TypeScript
-- Node.js
-- Docker Engine API
-- Kubernetes Client API
-
----
-
-## Roadmap
-
-- Interactive dashboard
-- Multi-cluster support
-- Alert integrations
-- AI-powered health analysis
-- Prometheus and Grafana integration
+To build fast, reliable, and developer-friendly infrastructure tools for modern cloud-native environments.
 
 ---
 
@@ -65,15 +17,3 @@ kdm k8s health
 ```txt
 https://kdm-cli.vercel.app/
 ```
-
----
-
-## License
-
-MIT License
-
----
-
-## Author
-
-Utkarsh Patrikar
